@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
+
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -36,6 +37,7 @@
                 autofocus
                 required
               />
+              <p class="error"><i>First name cannot be empty</i></p>
             </div>
             <div class="form-group">
               <input
@@ -45,8 +47,9 @@
                 autofocus
                 required
               />
+              <p class="error"><i>Last name cannot be empty</i></p>
             </div>
-            <div class="form-group">
+            <div class="form-group" data-required="(email@example.com)">
               <input
                 type="email"
                 name="Email"
@@ -54,6 +57,7 @@
                 autofocus
                 required
               />
+              <p class="error"><i>Looks like this is not an email.</i></p>
             </div>
             <div class="form-group">
               <input
@@ -63,6 +67,7 @@
                 autofocus
                 required
               />
+              <p class="error"><i>Password cannot be empty</i></p>
             </div>
             <div class="form-group">
               <button>CLAIM YOUR FREE TRIAL</button>
