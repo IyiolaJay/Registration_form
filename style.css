@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --fonts: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fd5c63;
+  background-image: url("bg-intro-desktop.png");
+}
+
+main {
+  margin: 100px auto;
+  width: 80%;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.side-one {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.side-one-text p {
+  font-size: 40px;
+  color: white;
+  font-family: var(--fonts);
+  font-weight: 700;
+  width: 80%;
+  line-height: 40px;
+  margin: 25% auto 0% 25%;
+  text-align: left;
+}
+.small {
+  color: white;
+  width: 80%;
+  margin: 5% auto 0% 25%;
+  text-align: left;
+}
+.side-two {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  /*margin: 20px 0px 0px 0px;*/
+  margin: 0% auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.form-group {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: var(--fonts);
+  border: rgba(128, 128, 128, 0.552) 1px solid;
+}
+
+.form-group input:focus {
+  outline-color: hsl(248, 32%, 49%);
+}
+
+.form-group button {
+  width: 100%;
+  padding: 15px;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  border-style: none;
+  font-family: var(--fonts);
+  color: white;
+}
+
+.last p {
+  text-align: center;
+  color: rgba(184, 192, 198, 0.91);
+  font-size: 10px;
+}
+
+.last a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+.form-topper {
+  background-color: hsl(248, 32%, 49%);
+  width: 80%;
+  margin: 0% auto 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+}
